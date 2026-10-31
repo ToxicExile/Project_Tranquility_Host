@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="theme-color" content="#145e63">
+<title>Tranquility | Experience previews</title>
+<link rel="stylesheet" href="landing.css">
+<script src="landing.js" defer></script>
+</head>
+<body>
+<main>
+<header><p class="eyebrow">TRANQUILITY</p><h1>A little familiarity.<br>A calmer first step.</h1><p class="intro">Experience previews for testing and feedback.</p></header>
+<section id="gate" class="panel" aria-labelledby="gate-title">
+<h2 id="gate-title">Open the preview hub</h2><p>Enter the shared preview password to choose an experience.</p>
+<form id="unlock-form"><label for="password">Preview password</label><input id="password" type="password" autocomplete="current-password" required aria-describedby="gate-error"><button type="submit">Unlock previews</button><p id="gate-error" role="status" aria-live="polite"></p></form>
+<noscript>This preview picker needs JavaScript enabled.</noscript>
+</section>
+<section id="experiences" hidden aria-labelledby="choose-title">
+<div class="section-heading"><h2 id="choose-title" tabindex="-1">Choose an experience</h2><button id="lock" class="secondary" type="button">Lock hub</button></div>
+<div class="cards">
+<article class="panel"><span class="number" aria-hidden="true">01</span><h3>MRI walkthrough</h3><p>Explore the MRI appointment experience.</p><a class="button" href="./mri/">Open MRI preview <span aria-hidden="true">↗</span></a></article>
+<article class="panel"><span class="number" aria-hidden="true">02</span><h3>12-week scan</h3><p>Explore the maternity ultrasound experience.</p><a class="button" href="./maternity-12-week/">Open maternity preview <span aria-hidden="true">↗</span></a></article>
+</div><p class="hint">Only the experience you choose will load. Use your browser’s Back button to return here.</p>
+</section>
+<footer><p>Development previews · For testing and feedback</p><p>These simulations do not replace information or instructions from your hospital.</p></footer>
+</main>
+</body></html>
